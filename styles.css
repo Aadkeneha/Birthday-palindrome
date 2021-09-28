@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(29, 35, 51);
+    color: white;
+  }
+  
+  h1{
+      text-align: center;
+      padding-top: 2rem;
+  }
+
+  p {
+    padding: 2rem;
+    text-align: left;
+    font-size: large;
+  }
+
+  .card{
+    box-shadow:0 4px 8px 0 navy; 
+    width:40%; 
+    height:350px; 
+    border-radius:15px; 
+    margin:auto;
+    background-color: beige;
+    color: black;
+}
+
+input{
+    font-size: large;
+    text-align: center;
+    border-radius: 0.4rem;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+button{
+  border-radius: 0.3rem;
+  padding:0.5rem;
+  width:20%;
+  background-color: #7C3AED;
+  color: white;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+}
+#result{
+    margin-top: 2rem;
+    font-size: x-large;
+    text-align: center;
+    font-style: italic;
+} 
+
+
+  
