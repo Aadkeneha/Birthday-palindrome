@@ -142,7 +142,7 @@ function reverseStr(str) {
         day: Number(listOfDate[2]),
         month: Number(listOfDate[1]),
         year: Number(listOfDate[0])
-      };
+      }
       
       var isaPalindrome = checkPalindromefordformats(date);
   
@@ -154,6 +154,9 @@ function reverseStr(str) {
   
         resultRef.innerText = "The next palindrome date is "+nextDate.day+"-"+nextDate.month+"-"+nextDate.year+ " ,you missed it by "+ctr+" days! 😔";
       }
+    }
+    else{
+      resultRef.innerText = 'Please enter the Birthdate';
     }
   }
   
